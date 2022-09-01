@@ -49,6 +49,7 @@ C:\Users\ika_l\Desktop\PSW2022\HospitalApp\HospitalApp\bin\Debug\net5.0\Microsof
 C:\Users\ika_l\Desktop\PSW2022\HospitalApp\HospitalApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ika_l\Desktop\PSW2022\HospitalApp\HospitalApp\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\ika_l\Desktop\PSW2022\HospitalApp\HospitalApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+<<<<<<< HEAD
 C:\Users\ika_l\Desktop\PSW\PSWProject\HospitalApp\HospitalApp\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\ika_l\Desktop\PSW\PSWProject\HospitalApp\HospitalApp\bin\Debug\net5.0\appsettings.json
 C:\Users\ika_l\Desktop\PSW\PSWProject\HospitalApp\HospitalApp\bin\Debug\net5.0\HospitalApp.exe
@@ -100,3 +101,5 @@ C:\Users\ika_l\Desktop\PSW\PSWProject\HospitalApp\HospitalApp\obj\Debug\net5.0\H
 C:\Users\ika_l\Desktop\PSW\PSWProject\HospitalApp\HospitalApp\obj\Debug\net5.0\ref\HospitalApp.dll
 C:\Users\ika_l\Desktop\PSW\PSWProject\HospitalApp\HospitalApp\obj\Debug\net5.0\HospitalApp.pdb
 C:\Users\ika_l\Desktop\PSW\PSWProject\HospitalApp\HospitalApp\obj\Debug\net5.0\HospitalApp.genruntimeconfig.cache
+=======
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354

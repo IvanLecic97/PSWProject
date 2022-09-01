@@ -1,8 +1,12 @@
 using HospitalApp.Model.MyDbContext;
+<<<<<<< HEAD
 using HospitalApp.Repository;
 using HospitalApp.Repository.Users;
 using HospitalApp.Repository.Users.PatientRepo;
 using HospitalApp.Service.AppointmentService;
+=======
+using HospitalApp.Repository.Users.PatientRepo;
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
 using HospitalApp.Service.UserService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,18 +39,27 @@ namespace HospitalApp
         {
             
             services.AddControllers();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
             services.AddDbContext<MyDbContext>(options =>
              options.UseMySql(Configuration.GetConnectionString("MyDbContextConnectionString"), new MySqlServerVersion(new Version())).UseLazyLoadingProxies());
 
             services.AddScoped<IPatientRepository, PatientRepoBase>();
+<<<<<<< HEAD
             services.AddScoped<IDoctorRepository, DoctorRepoBase>();
             services.AddScoped<IAppointmentRepository, AppointmentRepoBase>();
+=======
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
 
 
 
             services.AddScoped<IPatientService, PatientService>();
+<<<<<<< HEAD
             services.AddScoped<IAppointmentService, AppointmentService>();
+=======
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
 
             services.AddCors();
 

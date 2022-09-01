@@ -15,6 +15,7 @@ namespace HospitalApp.Model.MyDbContext
 
         public DbSet<Admin> Admins { get; set; }
 
+<<<<<<< HEAD
         public DbSet<Doctor> Doctors { get; set; }
 
         public DbSet<Appointment> Appointments { get; set; }
@@ -121,6 +122,27 @@ namespace HospitalApp.Model.MyDbContext
                }
                   );
         } 
+=======
+        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
+
+      /*  protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Admin>().HasData(
+                new Admin
+                {
+                    Id = 1,
+                    Email = "admin@gmail.com",
+                    Address = "Njegoseva 2",
+                    Birthday = new DateTime(1938, 11, 08),
+                    City = "Ljubinje",
+                    Name = "Kosa",
+                    Password = "123",
+                    Phone = "059621610",
+                    Surname = "Pesut"
+                }
+                 );
+        } */
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
                
         }
     }

@@ -17,6 +17,7 @@ namespace HospitalApp.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.13");
 
+<<<<<<< HEAD
             modelBuilder.Entity("HospitalApp.Model.Appointment", b =>
                 {
                     b.Property<int>("Id")
@@ -152,6 +153,8 @@ namespace HospitalApp.Migrations
                         });
                 });
 
+=======
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
             modelBuilder.Entity("HospitalApp.Model.Users.RegUser", b =>
                 {
                     b.Property<int>("Id")
@@ -198,6 +201,23 @@ namespace HospitalApp.Migrations
                     b.HasBaseType("HospitalApp.Model.Users.RegUser");
 
                     b.HasDiscriminator().HasValue("Admin");
+<<<<<<< HEAD
+=======
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Njegoseva 2",
+                            Birthday = new DateTime(1938, 11, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            City = "Ljubinje",
+                            Email = "admin@gmail.com",
+                            Name = "Kosa",
+                            Password = "123",
+                            Phone = "059621610",
+                            Surname = "Pesut"
+                        });
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
                 });
 
             modelBuilder.Entity("HospitalApp.Model.Users.Patient", b =>

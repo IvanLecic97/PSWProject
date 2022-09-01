@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Y0NMV0T7YlHrcJXhNj94RaLMpes8ZWUATLyYOBirGyPqkjAkAEmkifXvmTUTbDwE5TknsZMX9kNdHspnbpUj5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ika_l\\Desktop\\ProjekatIzPSWA\\PSWProject\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+=======
+  "dgSpecHash": "PPBs5ek0Hs6hPYnmb6BYwNVpFLFFp+tBnx/OlfF5TA0ri83jPYgbNcdmBr73PIdrX0TC8F9LuMtyZH2mY+97Bg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ika_l\\Desktop\\PSW2022\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
   "expectedPackageFiles": [
     "C:\\Users\\ika_l\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\ika_l\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

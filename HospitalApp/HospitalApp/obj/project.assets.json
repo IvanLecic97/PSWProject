@@ -6833,11 +6833,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ika_l\\Desktop\\ProjekatIzPSWA\\PSWProject\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
       "projectName": "HospitalApp",
       "projectPath": "C:\\Users\\ika_l\\Desktop\\ProjekatIzPSWA\\PSWProject\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
       "packagesPath": "C:\\Users\\ika_l\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ika_l\\Desktop\\ProjekatIzPSWA\\PSWProject\\HospitalApp\\HospitalApp\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\ika_l\\Desktop\\PSW2022\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+      "projectName": "HospitalApp",
+      "projectPath": "C:\\Users\\ika_l\\Desktop\\PSW2022\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+      "packagesPath": "C:\\Users\\ika_l\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ika_l\\Desktop\\PSW2022\\HospitalApp\\HospitalApp\\obj\\",
+>>>>>>> 9894c3d50cfc14ee4b72c0f682c249a5534d1354
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ika_l\\AppData\\Roaming\\NuGet\\NuGet.Config",
